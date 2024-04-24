@@ -1,5 +1,6 @@
 环境配置
 conda create -n llama3 python=3.10
+conda init bash && source /root/.bashrc
 conda activate llama3
 conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia
 
